@@ -1,0 +1,365 @@
+body {
+  background-color: #53aa8c;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.inicio-fondo {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("img/fondoAbajo.png");
+  background-size: 100vw;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -9999;
+}
+
+/* Clases genéricas */
+.tarjeta {
+  position: relative;
+  border: 5px solid #85dcbc;
+  border-radius: 5px;
+  background: #fff;
+  margin: 7.5px 5px;
+}
+
+.tarjeta-inicio {
+  position: relative;
+  border-radius: 5px;
+  background: #fff;
+  margin: 7.5px 5px;
+  padding: 5%;
+  width: 85%;
+  text-align: center;
+}
+
+.boton {
+  width: 40%;
+  background-color: #85dcbc;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  margin: 0 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  color: #2b2b2b;
+  padding: 10px;
+}
+
+.input {
+  background: rgba(147, 178, 170, 0.34);
+  border: none;
+  border-radius: 5px;
+  height: 28px;
+  margin: 1% 5px;
+  width: 276px;
+}
+
+.contenedor-botones {
+  margin: 15% 0;
+}
+
+.columna {
+  display: flex;
+  flex-direction: column;
+}
+
+.fila {
+  display: flex;
+}
+
+.fila .x2 {
+  width: 43%;
+}
+
+/* Inicio */
+.contenedorInicio {
+  width: 85%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  margin-top: 15%;
+  margin-left: 2%;
+  padding: 5%;
+  padding-top: 25%;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.logotipo {
+  height: 45%;
+  margin: -4% 12% 8% 25%;
+}
+
+.logoGoogle {
+  width: 5%;
+}
+
+.botongoogle {
+  background: transparent;
+  border: none;
+  color: #1d7a5f;
+}
+
+.icono16 {
+  width: 8%;
+}
+
+.parrafo16 {
+  font-size: 70%;
+  display: contents;
+}
+.iniciarsesion {
+  height: 23px;
+  left: 112px;
+  top: 149px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #2b2b2b;
+}
+
+/* Registrarse */
+.tituloRegi {
+  height: 23px;
+  left: 112px;
+  top: 149px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #2b2b2b;
+}
+
+.nombre {
+  width: 132px;
+}
+
+.apellido {
+  margin-top: 2%;
+  width: 132px;
+}
+
+/* Post */
+#nameSearch {
+  width: 288px;
+  height: 24px;
+}
+
+.botonespaprincipal {
+  margin-top: 15px;
+}
+
+.loactual {
+  width: 28%;
+  border-radius: 5px;
+  background-color: #85dcbc;
+  padding: 7px;
+  font-family: "Roboto", sans-serif;
+}
+
+.favoritos {
+  width: 28%;
+  border-radius: 5px;
+  background-color: #85dcbc;
+  padding: 7px;
+  font-family: "Roboto", sans-serif;
+}
+
+.guardados {
+  width: 28%;
+  border-radius: 5px;
+  background-color: #85dcbc;
+  padding: 7px;
+  font-family: "Roboto", sans-serif;
+}
+
+.ejemplo {
+  list-style: none;
+}
+
+/** Logo blanco **/
+.isologo {
+  display: block;
+  width: 100%;
+  padding: 25px;
+}
+
+.isologo svg {
+  display: inline;
+}
+
+.isologo h1 {
+  display: inline-block;
+
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  width: 50px;
+  color: #ffffff;
+}
+
+.avatar {
+  border-radius: 50%;
+  background: #ccc;
+  width: 55px;
+  display: block;
+  height: 55px;
+}
+
+.header-avatar {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
+.posts-avatar {
+  display: inline-block;
+}
+
+/** Publicaciones **/
+.contenedor-posts {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px 0;
+}
+
+.search-container {
+  position: relative;
+  margin: 5px;
+}
+
+.search-container input#nameSearch {
+  border: none;
+  background-color: #fff;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 15px;
+  height: 30px;
+}
+
+.search-container img {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.posts-header {
+  background: #1d7a5f;
+}
+
+.posts-botonera {
+  display: flex;
+  background: #85dcbc;
+  padding: 1rem 0;
+}
+
+.posts-botonera > .boton {
+  background: #53aa8c;
+  margin: 1.2%;
+  flex: 1;
+}
+
+.posts-crear {
+}
+
+#enviaPost {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+
+#inputPost {
+  width: 70%;
+  height: 100%;
+  background-color: #fff;
+  margin: 10px auto 50px;
+  padding: 5%;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.publicacion {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #2b2b2b;
+}
+
+.publicacion h3 {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.publicacion p {
+  padding: 10px 15px;
+}
+
+.publicacion .pie-publicacion {
+  background: #c4c4c4;
+  border-radius: 5px;
+  margin: 10px 5px;
+  text-align: left;
+  padding: 5px 10px;
+}
+
+/** Perfil */
+.perfil {
+  display: flex;
+  width: 80%;
+  padding: 15px;
+  margin: 0 auto;
+  border: 10px solid #85dcbb;
+}
+
+.perfil-identificacion {
+  flex: 1;
+}
+
+.perfil-social {
+  display: flex;
+  text-align: center;
+}
+
+.perfil-social p {
+  margin: 0;
+}
+
+.perfil-social h4 {
+  margin: 0;
+}
+
+.perfil-seguidores {
+  width: 50%;
+}
+
+.perfil-seguidos {
+  width: 50%;
+}
+
+.perfil-informacion {
+  background: rgba(147, 178, 170, 0.34);
+  flex: 2;
+}
